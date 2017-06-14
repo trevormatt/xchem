@@ -1,0 +1,23 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    background-image: url('/assets/images.jpeg');
+}
+
+h1{
+	color: blue;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 300%;
+}
+p{
+	background-color: orange;
+	font-family: Impact;
+	font-size: 150%;
+}
+pre{
+	font-family: Verdana;
+	font-size: 50%;
+	border: 4px outset blue;
+}
