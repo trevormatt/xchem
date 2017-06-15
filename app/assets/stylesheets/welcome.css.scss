@@ -2,10 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body{
-    background-image: asset-data-url("images.jpeg");
-}
-
 h1{
 	color: red;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -16,7 +12,13 @@ p{
 	font-family: Impact;
 	font-size: 150%;
 }
+
+p{
+	background-image: asset-data-url("images.jpeg");
+}
+
 pre{
+    background-color: green;
 	font-family: Verdana;
 	font-size: 50%;
 	border: 4px outset blue;
