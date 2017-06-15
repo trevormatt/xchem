@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'lessons/new'
 
-  get '/lessons', to: 'lessons/new' 
+  get '/lessons', to: 'lessons#new' 
 
   get 'welcome/index'
 
